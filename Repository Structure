@@ -1,0 +1,9 @@
+cryptotestnet/
+ ├── contracts/
+ │    └── CryptoTestnet.sol
+ ├── frontend/
+ │    ├── index.html
+ │    ├── script.js
+ │    └── style.css
+ ├── README.md
+ ├── package.json  (optional if using npm)
