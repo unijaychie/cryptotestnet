@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>CryptoTestnet</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>CryptoTestnet DApp</h1>
+  <button id="connectWallet">Connect Wallet</button>
+  <p id="walletAddress">Not connected</p>
+
+  <div>
+    <h2>Balance</h2>
+    <button id="checkBalance">Check Balance</button>
+    <p id="balance">0</p>
+  </div>
+
+  <div>
+    <h2>Send Tokens</h2>
+    <input type="text" id="recipient" placeholder="Recipient address">
+    <input type="number" id="amount" placeholder="Amount">
+    <button id="sendTokens">Send</button>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/ethers@6.0.0/dist/ethers.umd.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
